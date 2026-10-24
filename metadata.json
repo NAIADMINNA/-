@@ -1,0 +1,6 @@
+{
+  "name": "To Do List Calendar + LINE Reminder",
+  "description": "ระบบ To Do List Calendar จัดการงานและแจ้งเตือนผ่าน LINE อัตโนมัติ พร้อมเชื่อมต่อ Google Sheets",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
