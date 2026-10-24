@@ -594,7 +594,7 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
         // จำลองผลลัพธ์ว่าสำเร็จ เนื่องจากโหมด no-cors จะอ่านค่า response จาก Google กลับมาไม่ได้
         const resData = { success: true, message: '' };
 
-      if (res.ok && resData.success) {
+      if (resData.success) {
         const syncTime = new Date().toLocaleTimeString('th-TH', { hour: '2-digit', minute: '2-digit' });
         const successMsg = resData.message || `ซิงค์งาน ${tasksToSync.length} รายการลงใน Google Sheets สำเร็จเรียบร้อย!`;
         setSyncStatus({
